@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles/base.css" />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <section class="top-navigation">
+                <div class="container">
+                    <div class="space-between-block">
+                        <a
+                            href="#home"
+                            aria-current="page"
+                            class="navbar-logo-wrapper w-nav-brand w--current">
+                            <img
+                                src="./images/logo.png"
+                                alt=""
+                                class="site-logo h-50px" />
+                        </a>
+                        <form action="" class="search-bar-wrapper w-form">
+                            <input
+                                class="search-bar w-input"
+                                maxlength="256"
+                                placeholder="What are you looking for?"
+                                type="search"
+                                required />
+                            <div
+                                type="submit"
+                                role="submit"
+                                class="search-button w-button w-button-icon"
+                                value="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </form>
+                        <div class="w-layout-hflex ecommerce-icons">
+                            <div class="user-icon-block">
+                                <a href="/sign-up" class="w-inline-block">
+                                    <img
+                                        src="./images/layout/user_login_icon.webp"
+                                        alt=""
+                                        class="_24px-svg" />
+                                </a>
+                                <div class="w-layout-vflex hide-in-tablet">
+                                    <a href="/log-in" class="text-12px">
+                                        Login
+                                    </a>
+                                    <a href="/user-account" class="white-color">
+                                        Account
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="w-commerce-commercecartwrapper">
+                                <a
+                                    href="#"
+                                    class="w-commerce-commercecartopenlink cart-button w-inline-block"
+                                    role="button">
+                                    <div class="relative-block">
+                                        <img
+                                            src="./images/layout/bag_icon.webp"
+                                            alt=""
+                                            class="_24px-svg" />
+                                        <div
+                                            class="w-commerce-commercecartopenlinkcount cart-quantity">
+                                            0
+                                        </div>
+                                    </div>
+                                    <div class="w-layout-vflex hide-in-tablet">
+                                        <div class="text-12px w-inline-block">
+                                            Your cart
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="navbar">
+            <nav class="container">
+                <div class="navbar-wrapper">
+                    <div class="category-dropdown w-dropdown">
+                        <div class="browse-categories-block" role="button">
+                            <img
+                                src="./images/layout/categories_icon.webp"
+                                alt=""
+                                class="_20px-svg" />
+                            <div class="_14px-text-uppercase">
+                                Browse All Categories
+                            </div>
+                        </div>
+                        <nav class="category-bar-dropdown w-dropdown-list">
+                            <div class="w-dyn-list">
+                                <div
+                                    role="list"
+                                    class="product-categories-vertical-dropdown-block w-dyn-items">
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/watch_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Watch
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/speaker_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Speaker
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/mouse_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Mouse
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/monitor_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Monitor
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/mobile_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Mobile Phone
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/Laptop_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Laptop
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/keyboard_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Keyboard
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/headphones_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Headphone
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/earbuds_con.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Earphone
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/camera_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Camera
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="w-dyn-item">
+                                        <div
+                                            class="category-item-side"
+                                            role="button">
+                                            <img
+                                                src="./images/layout/Accesories_icon.png"
+                                                alt=""
+                                                class="_16px-svg" />
+                                            <a href="#" class="neutral-color">
+                                                Accesories
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="_1px-width-divider hide-in-tablet"></div>
+                    <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+                        <ul class="nav-menu w-list-unstyled">
+                            <li class="nav-list">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#about" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#pages" class="nav-link">Pages</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#shop" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#blog" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="_1px-width-divider hide-in-tablet"></div>
+                    <div class="phone-and-email-wrapper-navbar">
+                        <div class="horizontal-block-with-7px-gap">
+                            <img
+                                src="./images/layout/phone-call 2.svg"
+                                alt=""
+                                class="_16px-svg" />
+                            <div class="neutral-100-semibold">
+                                Call: (+84) 0326-654-505
+                            </div>
+                        </div>
+                        <div class="horizontal-block-with-7px-gap">
+                            <img
+                                src="./images/layout/letter-icon_1.svg"
+                                alt="" />
+                            <div class="neutral-100-semibold">
+                                Email: dh52106994@student.stu.edu.vn
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="w-nav-overlay"></div>
+        </div>
+        <div class="page-wrapper">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="hero-slider-wrapper">
+                        <div class="hero-block-3 w-slider">
+                            <div
+                                class="mask w-slider-mask"
+                                id="w-slider-mask-0">
+                                <div
+                                    class="w-slide"
+                                    style="
+                                        transform: translateX(0px);
+                                        opacity: 1;
+                                        z-index: 15;
+                                        transition: all 1s ease-out;
+                                    ">
+                                    <div class="hero-block-3-contents">
+                                        <div
+                                            class="w-layout-vflex featured-contents">
+                                            <h2 class="white-heading">
+                                                16X Digital Zoom 1080P HD SLR
+                                                Camera
+                                            </h2>
+                                            <div
+                                                class="w-layout-vflex _15px-gap-stretch">
+                                                <a
+                                                    href="#"
+                                                    class="primary-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        View Detail
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                                <a
+                                                    href="#"
+                                                    class="secondary-transparent-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        Buy Now
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img
+                                            src="./images/slider/camera-slider.webp"
+                                            alt=""
+                                            class="hero-slider-image" />
+                                    </div>
+                                </div>
+                                <div
+                                    class="w-slide"
+                                    style="
+                                        transform: translateX(0px);
+                                        opacity: 1;
+                                        z-index: 15;
+                                        transition: all 1s ease-out;
+                                    ">
+                                    <div class="hero-block-3-contents">
+                                        <div
+                                            class="w-layout-vflex featured-contents">
+                                            <h2 class="white-heading">
+                                                VR BOX 2.0 Virtual Reality With
+                                                5D Glasses
+                                            </h2>
+                                            <div
+                                                class="w-layout-vflex _15px-gap-stretch">
+                                                <a
+                                                    href="#"
+                                                    class="primary-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        View Detail
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                                <a
+                                                    href="#"
+                                                    class="secondary-transparent-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        Buy Now
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img
+                                            src="./images/slider/vr_headset_slider.webp"
+                                            alt=""
+                                            class="hero-slider-image" />
+                                    </div>
+                                </div>
+                                <div
+                                    class="w-slide"
+                                    style="
+                                        transform: translateX(0px);
+                                        opacity: 1;
+                                        z-index: 15;
+                                        transition: all 1s ease-out;
+                                    ">
+                                    <div class="hero-block-3-contents">
+                                        <div
+                                            class="w-layout-vflex featured-contents">
+                                            <h2 class="white-heading">
+                                                VR BOX 2.0 Virtual Reality With
+                                                5D Glasses
+                                            </h2>
+                                            <div
+                                                class="w-layout-vflex _15px-gap-stretch">
+                                                <a
+                                                    href="#"
+                                                    class="primary-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        View Detail
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                                <a
+                                                    href="#"
+                                                    class="secondary-transparent-button w-inline-block">
+                                                    <div
+                                                        class="button-text-wrapper">
+                                                        Buy Now
+                                                    </div>
+                                                    <i
+                                                        class="fa-solid fa-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <img
+                                            src="./images/slider/headphone_slider.webp"
+                                            alt=""
+                                            class="hero-slider-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="hidden w-slider-arrow-left"
+                                role="button">
+                                <i
+                                    class="fa-solid fa-chevron-left w-icon-slider-left"></i>
+                            </div>
+                            <div
+                                class="hidden w-slider-arrow-right"
+                                role="button">
+                                <i
+                                    class="fa-solid fa-chevron-right w-icon-slider-right"></i>
+                            </div>
+                            <div class="slide-nav-3 w-slider-nav w-round">
+                                <div
+                                    class="w-slider-dot w-active"
+                                    role="button"></div>
+                                <div class="w-slider-dot" role="button"></div>
+                                <div class="w-slider-dot" role="button"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="section-display-product">
+                        <div>
+                            <div class="category-bar">
+                                <div
+                                    class="w-layout-vflex _7px-gap-with-padding">
+                                    <div class="_20px-bold-title">
+                                        All Categories
+                                    </div>
+                                    <div class="_1px-height-divider"></div>
+                                </div>
+                                <div class="w-dyn-list">
+                                    <div
+                                        class="product-categories-vertical-block w-dyn-items">
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/watch_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Watch
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/speaker_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Speaker
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/mouse_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Mouse
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/monitor_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Monitor
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/mobile_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Mobile Phone
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/Laptop_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Laptop
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/keyboard_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Keyboard
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/headphones_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Headphone
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/earbuds_con.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Earphone
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/camera_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Camera
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div role="listitem" class="w-dyn-item">
+                                            <div
+                                                class="category-item-side"
+                                                role="button">
+                                                <img
+                                                    src="./images/layout/Accesories_icon.png"
+                                                    alt=""
+                                                    class="_16px-svg" />
+                                                <a
+                                                    href="#"
+                                                    class="neutral-color">
+                                                    Accesories
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-product">
+                            <div class="w-dyn-list">
+                                <div class="_3-column-product-grid w-dyn-items">
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/TNC Gaming Headphone.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        TNC Gaming Headphone
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/TNC Android Watch.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        TNC Android Watch
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/TNC Laptop.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        TNC Laptop
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/TNC Android Phone.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        TNC Android Phone
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/Digital Bluetooth Speaker.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        Digital Bluetooth
+                                                        Speaker
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="center-align w-dyn-item">
+                                        <div class="product-cart">
+                                            <a
+                                                href="#"
+                                                class="product-thumbnail-wrapper w-inline-block">
+                                                <img
+                                                    src="./images/products/TNC Stereo Headphone.png"
+                                                    alt=""
+                                                    class="product-thumbnail"
+                                                    style="
+                                                        transform: translate3d(
+                                                                0px,
+                                                                0px,
+                                                                0px
+                                                            )
+                                                            scale3d(1, 1, 1)
+                                                            rotateX(0deg)
+                                                            rotateY(0deg)
+                                                            rotateZ(0deg)
+                                                            skew(0deg, 0deg);
+                                                        transform-style: preserve-3d;
+                                                        opacity: 1;
+                                                    " />
+                                            </a>
+                                            <div
+                                                class="w-layout-vflex product-body">
+                                                <a
+                                                    href="#"
+                                                    class="mask w-inline-block">
+                                                    <div
+                                                        class="product-name-on-card">
+                                                        TNC Stereo Headphone
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="w-layout-hflex star-wrapper">
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                    <i
+                                                        class="fa-solid fa-star star-icon"></i>
+                                                </div>
+                                                <div
+                                                    class="w-layout-hflex product-price-block">
+                                                    <div class="card-price">
+                                                        $ 120.00 USD
+                                                    </div>
+                                                    <div
+                                                        class="_2px-width-divider"></div>
+                                                    <div
+                                                        class="card-discount-price">
+                                                        $ 140.00 USD
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                    <div
+                                                        class="add-to-cart-button">
+                                                        Add to Cart
+                                                    </div>
+                                                    <div class="sale-tag">
+                                                        On Sale
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container middle-allign">
+                <div class="footer-copyright">
+                    Copyright © 2024 Shopper NPDK |
+                    <a href="#" class="footer-copyright">
+                        Designed by Nguyễn Phạm Đăng Khoa
+                    </a>
+                    <a href="#" target="_blank" class="footer-copyright">
+                        | Powered by Webflow
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="./script/main.js"></script>
+    </body>
+</html>
